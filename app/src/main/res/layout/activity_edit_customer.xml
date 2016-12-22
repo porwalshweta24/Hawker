@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="H.Seq"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/tv_h_seq"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:singleLine="true"
+
+                    android:text=""
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="name"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="total due"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/t_due"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Initials"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/initials"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:maxLength="3"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearCustCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Cust Code"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/cust_code"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:enabled="false"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Mobile Num"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/mobile_num"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:maxLength="15"
+                    android:inputType="phone"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Old H.No"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/old_h_no"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="New H.No"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/new_h_no"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text=" Street"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/street"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text=" Add1"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/add1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text=" Add2"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/add2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Locality"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/locality"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text=" City"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/City"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text=" State"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+               <Spinner
+                    android:id="@+id/spinnerState"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:paddingLeft="-8dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Profile1"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+
+                <Spinner
+                    android:id="@+id/spinnerprofile1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:paddingLeft="-8dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Profile2"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+
+                <Spinner
+                    android:id="@+id/spinnerprofile2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:paddingLeft="-8dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text=" Employment"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+                <Spinner
+                    android:id="@+id/spinneremployment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:paddingLeft="-8dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text="Profile3"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/profile3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
+                    android:text=" Comments"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/comments"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <app.com.hawker.AppFonts.ButtonRegularOpensans
+                android:id="@+id/button_save_cust"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_bg"
+                android:text="save"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

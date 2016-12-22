@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lylogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/login_user_rel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp">
+
+            <ImageView
+                android:id="@+id/login_user_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/user" />
+
+            <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                android:id="@+id/login_et_mobilenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@+id/login_user_iv"
+                android:background="#fff"
+                android:inputType="number"
+                android:maxLength="15"
+                android:hint="@string/mobile_number"
+                android:textColor="#000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/login_password_rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_rel"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext_bg"
+            android:padding="14dp">
+
+            <ImageView
+                android:id="@+id/login_password_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/pass" />
+
+            <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                android:id="@+id/login_et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@+id/login_password_iv"
+                android:background="#fff"
+                
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:singleLine="false" />
+
+        </RelativeLayout>
+
+        <app.com.hawker.AppFonts.ButtonRegularOpensans
+            android:id="@+id/login_btnlogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <app.com.hawker.AppFonts.TextViewRegularOpensans
+            android:id="@+id/login_fpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="FORG0T PASSWORD ?"
+            android:textColor="@color/white" />
+
+        <app.com.hawker.AppFonts.TextViewRegularOpensans
+            android:id="@+id/login_reglink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:onClick="register"
+            android:text="New Register Here"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

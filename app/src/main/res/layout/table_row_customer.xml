@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/house_seq"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="H.Seq"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/cust_code"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="Cust Code"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/name"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/mobile_num"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="Mobile Num"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/t_due"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="T.Due"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/h_no"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text=" H.No"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/flat"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text=" Flat#"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/line1"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="Line1"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/line2"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="Line2"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/line3"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="Line3"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/City"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="City"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+        android:id="@+id/State"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:text="State"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+</LinearLayout>

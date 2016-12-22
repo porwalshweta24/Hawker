@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_cust_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:text="Customer Id"
+                android:textSize="@dimen/text_size_16" />
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_id_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout_cust_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout_cust_id"
+            android:orientation="horizontal">
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:text="Customer name"
+                android:textSize="@dimen/text_size_16" />
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_name_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/text_size_16" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout_cust_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout_cust_name"
+            android:orientation="horizontal">
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_mobile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:text="Mobile"
+                android:textSize="@dimen/text_size_16" />
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_mobile_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/text_size_16" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout_cust_employment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout_cust_mobile"
+            android:orientation="horizontal">
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_employment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:text="Employment"
+                android:textSize="@dimen/text_size_16" />
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:id="@+id/tv_cust_employment_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/text_size_16" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_dialog_cancel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/delete_image" />
+</RelativeLayout>

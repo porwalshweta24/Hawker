@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rootLayout_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Customer Id: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_cust_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="House Seq: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_house_seq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Customer Code: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_customerCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Name: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Mobile Num: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Total due: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_t_due"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="House No.: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_H_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Flat#: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_flat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Line1: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Line2: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Line3: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_line3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="City: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="State: "
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <app.com.hawker.AppFonts.TextViewRegularOpensans
+                android:id="@+id/tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

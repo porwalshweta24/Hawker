@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_id"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Subs Id"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_prod_code"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Prod Code"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_productType"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="ProductType"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_type"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="SubsType"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_paymentType"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="PaymentType"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_status"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="SubsStatus"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_price"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Price"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_addToBill"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="AddToBill"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_frequnecy"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Freq"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_dow"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="DOW"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_startDate"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="StartDate"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_EndDate"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="EndDate"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_stopDate"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="StopDate"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_resumeDate"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="ResumeDate"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:id="@+id/tv_subs_amount"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Amount"
+        android:textColor="@color/gray_dark"
+        android:textSize="14dp" />
+
+</LinearLayout>

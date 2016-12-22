@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Subs id"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Prod Code"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Product Type"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Subs Type"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="PaymentType"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Status"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Price"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="AddToBill"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Frequnecy"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="DOW"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="StartDate"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="EndDate"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Stop Date"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Resume Date"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Amount"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+</LinearLayout>

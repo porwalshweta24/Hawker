@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Id"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Subs Id"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Hawker Code"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Subs Type"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Freq"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="DOW"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Stop Date"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Resume Date"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <app.com.hawker.AppFonts.TextViewRegularOpensans
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/textview_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Amount"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+   
+</LinearLayout>

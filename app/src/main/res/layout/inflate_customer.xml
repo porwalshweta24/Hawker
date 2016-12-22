@@ -1,0 +1,175 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+            android:clipToPadding="true" >
+
+            <LinearLayout
+                android:id="@+id/rootLayout_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="House Seq: "
+                        android:textSize="@dimen/text_size_16"
+                        android:textStyle="bold" />
+
+                    <app.com.hawker.AppFonts.TextViewRegularOpensans
+                        android:id="@+id/tv_house_seq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textSize="@dimen/text_size_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Customer Code: "
+                        android:textSize="@dimen/text_size_16"
+                        android:textStyle="bold" />
+
+                    <app.com.hawker.AppFonts.TextViewRegularOpensans
+                        android:id="@+id/tv_customerCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textSize="@dimen/text_size_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Name: "
+                        android:textSize="@dimen/text_size_16"
+                        android:textStyle="bold" />
+
+                    <app.com.hawker.AppFonts.TextViewRegularOpensans
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textSize="@dimen/text_size_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Mobile Num: "
+                        android:textSize="@dimen/text_size_16"
+                        android:textStyle="bold" />
+
+                    <app.com.hawker.AppFonts.TextViewRegularOpensans
+                        android:id="@+id/tv_mobile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textSize="@dimen/text_size_16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.30"
+                        android:padding="5dp"
+                        android:text="Total due: "
+                        android:textSize="@dimen/text_size_16"
+                        android:textStyle="bold" />
+
+                    <app.com.hawker.AppFonts.TextViewRegularOpensans
+                        android:id="@+id/tv_t_due"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.30"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textSize="@dimen/text_size_16" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.20" >
+
+                        <app.com.hawker.AppFonts.ButtonRegularOpensans
+                            android:id="@+id/btn_loadMore"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/loading" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.20" >
+
+                        <app.com.hawker.AppFonts.ButtonRegularOpensans
+                            android:id="@+id/btn_show"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/arrow_agent" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

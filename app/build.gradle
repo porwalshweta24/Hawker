@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "app.com.hawker"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+    productFlavors {
+        prod {
+            buildConfigField 'String', 'ACCESS_KEY', '"AKIAIZ53M3FYTTP6B5GQ"'
+            buildConfigField 'String', 'SECRET', '"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"'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+
+    compile 'com.amazonaws:aws-android-sdk-core:2.+'
+    compile 'com.amazonaws:aws-android-sdk-cognito:2.+'
+    compile 'com.amazonaws:aws-android-sdk-s3:2.+'
+    compile 'com.amazonaws:aws-android-sdk-ddb:2.+'
+
+    compile 'com.amazonaws:aws-android-sdk-lambda:2.2.+'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.jakewharton:butterknife:8.0.1'
+
+}

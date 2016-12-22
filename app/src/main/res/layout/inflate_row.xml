@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_listinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+            android:id="@+id/tv_lineNum_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/arrow_right"
+            android:paddingLeft="10dp"  
+            android:gravity="center_vertical"         
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+</LinearLayout>
