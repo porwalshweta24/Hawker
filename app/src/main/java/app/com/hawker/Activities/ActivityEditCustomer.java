@@ -75,8 +75,9 @@ public class ActivityEditCustomer extends AppCompatActivity {
             Intent i = getIntent();
             customer = (Customer) i.getSerializableExtra("CUSTOMER");
             init();
-            setData();
             onClick();
+            setData();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -136,6 +137,8 @@ public class ActivityEditCustomer extends AppCompatActivity {
             City.setText("" + customer.getCity());
             comments.setText("" + customer.getComments());
             t_due.setText("" + customer.getTotalDue());
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -154,6 +157,10 @@ public class ActivityEditCustomer extends AppCompatActivity {
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // attaching data adapter to spinner
         employment.setAdapter(dataAdapter);
+        if (!customer.getEmployment().equals(null)) {
+            employment.setSelection(dataAdapter.getPosition(customer.getEmployment()));
+        }
+
         // Creating adapter for spinner
         ArrayAdapter<String> dataAdapterProfile1 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,
                 ((ApplicationClass) getApplicationContext()).getProfileValuesArr());
@@ -161,6 +168,9 @@ public class ActivityEditCustomer extends AppCompatActivity {
         dataAdapterProfile1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // attaching data adapter to spinner
         profile1.setAdapter(dataAdapterProfile1);
+        if (!customer.getProfile1().equals(null)) {
+            profile1.setSelection(dataAdapterProfile1.getPosition(customer.getProfile1()));
+        }
         // Creating adapter for spinner
         ArrayAdapter<String> dataAdapterProfile2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,
                 ((ApplicationClass) getApplicationContext()).getProfileValuesArr());
@@ -168,10 +178,16 @@ public class ActivityEditCustomer extends AppCompatActivity {
         dataAdapterProfile2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // attaching data adapter to spinner
         profile2.setAdapter(dataAdapterProfile2);
+        if (!customer.getProfile2().equals(null)) {
+            profile2.setSelection(dataAdapterProfile2.getPosition(customer.getProfile2()));
+        }
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, getResources().getStringArray(R.array.state_array));
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerState.setAdapter(adapter);
+        if (!customer.getState().equals(null)) {
+            spinnerState.setSelection(adapter.getPosition(customer.getState()));
+        }
         iv_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

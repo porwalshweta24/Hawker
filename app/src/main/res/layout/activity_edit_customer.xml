@@ -58,6 +58,33 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.40"
                     android:padding="5dp"
+                    android:text="Initials"
+                    android:textSize="@dimen/text_size_16"
+                    android:textStyle="bold" />
+
+                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
+                    android:id="@+id/initials"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.60"
+                    android:padding="5dp"
+                    android:text=""
+                    android:singleLine="true"
+
+                    android:maxLength="3"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:padding="5dp"
                     android:text="name"
                     android:textSize="@dimen/text_size_16"
                     android:textStyle="bold" />
@@ -99,33 +126,7 @@
 
                     android:textSize="@dimen/text_size_16" />
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:orientation="horizontal">
 
-                <app.com.hawker.AppFonts.TextViewSemiBoldOpensans
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.40"
-                    android:padding="5dp"
-                    android:text="Initials"
-                    android:textSize="@dimen/text_size_16"
-                    android:textStyle="bold" />
-
-                <app.com.hawker.AppFonts.EditTextViewRegularOpensans
-                    android:id="@+id/initials"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.60"
-                    android:padding="5dp"
-                    android:text=""
-                    android:singleLine="true"
-
-                    android:maxLength="3"
-                    android:textSize="@dimen/text_size_16" />
-            </LinearLayout>
             <LinearLayout
                 android:id="@+id/linearCustCode"
                 android:layout_width="match_parent"

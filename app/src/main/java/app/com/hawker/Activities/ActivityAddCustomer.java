@@ -197,7 +197,7 @@ public class ActivityAddCustomer extends AppCompatActivity {
                                        int arg2, long arg3) {
                 // TODO Auto-generated method stub
                 profile1Str  = profile1.getSelectedItem().toString();
-                employmentInt=arg2;
+                profile1Int=arg2;
 
             }
 
